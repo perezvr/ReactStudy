@@ -14,6 +14,9 @@ module.exports = {
     */ 
     "@babel/preset-react",
   ],
+  /**
+   * Plugin responsável por setar os states de componentes de classe fora do constructor()
+   */
   plugins: [
     '@babel/plugin-proposal-class-properties'
   ]
